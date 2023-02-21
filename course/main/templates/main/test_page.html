@@ -1,0 +1,37 @@
+{% extends 'main/base.html'%}
+
+{% block title %}
+Тестовая страничка
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+    <div class="py-5 text-center">
+    <img class="d-block mx-auto mb-4" src="https://pngimg.com/uploads/minecraft/minecraft_PNG50.png" alt="" width="100" height="90">
+      <h2>Тестовая страничка</h2>
+      <p class="lead">Ля</p>
+    </div>
+      <div class="row g-0">
+      </div>
+         <div class="col md-4">
+        <ul class="list-group mb-3">
+          <li class="list-group-item d-flex justify-content-between bg-light">
+            <div class="text-success">
+              <h6 class="my-0">Название</h6>
+            </div>
+          {% for i in info %}
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+
+            <div>
+              <h6 class="my-0">{{i}}</h6>
+            </div>
+
+          </li>
+          {% endfor %}
+
+        </ul>
+
+    </div>
+{% endblock %}
+
