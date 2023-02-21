@@ -1,5 +1,5 @@
-PASSWORD = ""
+PASSWORD = "12345678"
 
-LOGIN = ""
+LOGIN = "neo4j"
 
 LOCALHOST = "bolt://localhost:7687"

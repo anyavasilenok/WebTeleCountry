@@ -8,4 +8,4 @@ def test_function(request):
     test_list = cl.out(1, 0, 3, 0, "общественный транспорт", "1-к в центре", "Рейтинг стран")
     context = {"info": test_list}
 
-    return render(request, "main/test_page.html", context)
+    return render(request, "cost_living/test_page.html", context)
